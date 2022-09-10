@@ -1,4 +1,4 @@
-import posts from "./posts.js";
+import posts from "https://github.com/regoloko/blogggtik/blob/main/js/posts.js";
 
 document.addEventListener("DOMContentLoaded", init);
 
