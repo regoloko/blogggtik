@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>TikTok Clone</title>
+  </head>
+  <body>
+    <main class="create__video">
+      <form id="form">
+        <input type="text" placeholder="Username" id="user" />
+        <input type="text" placeholder="Caption" id="caption" />
+        <input type="url" placeholder="URL Video" id="video" />
+        <div class="btns">
+          <button type="submit" id="post">Post</button>
+          <button type="button" id="cancel">Cancel</button>
+        </div>
+      </form>
+    </main>
+    <section class="container">
+      <article class="videos"></article>
+      <article class="add__video">
+        <i title="Add Video" id="showForm" class="bx bx-plus-medical"></i>
+      </article>
+    </section>
+    <script src="js/script.js" type="module"></script>
+  </body>
+</html>
